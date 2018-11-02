@@ -1,0 +1,8 @@
+1. Briefly describe the conceptual approach you chose! What are the trafe-offs?
+	Used Decision Tree for classification, the model includes all the features given and it is a Non-Linear classifier. Decision Tree for this data might be overfitting, but there is no clear information on what are the attributes given, which makes it difficult to chose the algorithm for the data. 
+
+2. What's the model performance? What is the complexity? Where are the bottlenecks?
+	The model's performance is 97.6%. The complexity here is, no enough explanation or insight on what kind of data and what are the attributes. The given data has more number of records for a single class, this needs to be addressed. The difference in number of records between the classes is huge, this created bottleneck.
+
+3. If you had more time, what improvements would you make, and in what order of priority?
+	With more time and with more detail on what are the attributes given, results in better understanding of the data, would have chosen better way to impute the data, with the knowledge about the data (kind of business), would have considered using the important attributes for classification rather than using all the features.
